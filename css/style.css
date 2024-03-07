@@ -38,10 +38,54 @@ body {
     color: white;
     font-size: 1.2em;
     transition: color 0.3s;
+    text-transform: uppercase;
   }
   
   .nav-list a:hover {
     color: #66ccff;
+  }
+
+
+
+  /* container-img */
+
+  .container-img{
+    background-image: url(../img/esporte-certo.jpg);
+    height: 520px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .desconto{
+    text-align: center;
+    padding-top: 140px;
+    font-size: 120px;
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15px,
+      "SHLN" 50px;
+  }
+
+  .clica-ae{
+    text-decoration: none;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15px,
+    "SHLN" 50px;
+    width: 200px;
+    text-align: center;
   }
   
   @media (max-width: 980px) {
@@ -52,6 +96,10 @@ body {
       float: none;
       display: flex;
       flex-direction: column;
+    }
+
+    .link-logo{
+      text-decoration: none;
     }
 
     .logo{
