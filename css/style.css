@@ -134,6 +134,22 @@ body {
   display: block;
   }
 
+  .carousel2 {
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .carousel2 img {
+    width: 50%;
+    display: none;
+    }
+  
+  .carousel2 img.active {
+    display: block;
+    }
+
 
 
 
