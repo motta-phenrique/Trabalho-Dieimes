@@ -1,0 +1,35 @@
+HTML
+<div class="carousel">
+    <img src="imagem1.jpg" alt="Imagem 1">
+    <img src="imagem2.jpg" alt="Imagem 2">
+    <img src="imagem3.jpg" alt="Imagem 3">
+</div>
+
+
+CSS
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    display: none;
+}
+
+.carousel img.active {
+    display: block;
+}
+JS
+let index = 0;
+const imagens = document.querySelectorAll('.carousel img');
+
+function mostrarImagem() {
+    imagens.forEach(img => img.classList.remove('active'));
+    imagens[index].classList.add('active');
+    index = (index + 1) % imagens.length;
+}
+
+setInterval(mostrarImagem, 3000); // Troca de imagem a cada 3 segundos (3000 milissegundos)
+
+
