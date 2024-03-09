@@ -131,7 +131,7 @@ body {
   }
 
   .carousel {
-    width: 50%;
+    width: 40%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -232,6 +232,7 @@ body {
     justify-content: center;
     height: 450px;
     background-position: back center;
+    margin-bottom: 20px;
   }
 
   .itens-quad{
@@ -241,9 +242,31 @@ body {
     align-items: center;
     border: 2px solid black;
     border-radius: 10px;
-    height: 400px;
-    background-image: url(../img/cartao2.jpg);
+    height: 450px;
     background-position: left;
+    width: 23%;
+  }
+
+  .itens-quad p{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+  }
+
+  .itens-quad .preco{
+    font-size:25px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color: orangered;
+    margin-top: 7px;
+
+  }
+
+  .itens-quad img{
+    width: 70%;
   }
 
   .acessorio-ret{
