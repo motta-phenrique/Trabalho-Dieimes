@@ -1,42 +1,99 @@
+.main{
+  display: flex;
+  width: 100%;
+}
+
+.barra-lateral{
+  margin-top: 35px;
+  width: 10%;
+  margin-right: 40px;
+  border-right: 2px solid black;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barra-lateral h1{
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: orangered;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-style: oblique;
+  border-bottom: 3px solid black;
+  width: 90px;
+  font-weight: 400;
+}
+
+.barra-lateral p{
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-style: oblique;
+  border-bottom: 3px solid orangered;
+  margin-bottom: 30px;
+  width: 90px;
+  font-weight: 100;
+
+}
+
 .acessorios{
     display: flex;
-    width: 100%;
+    width: 90%;
     height: auto;
     margin-bottom: 80px;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 25px;
   }
 
 .itens-quad{
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    align-items: center;
-    border: 2px solid black;
     border-radius: 10px;
-    height: 450px;
+    height: 250px;
     background-position: left;
-    width: 23%;
-    width: 250px;
+    width: 160px;
+    margin: 15px;
   }
 
   .itens-quad p{
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     font-style: oblique;
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .itens-quad .preco{
-    font-size:25px;
+    font-size:20px;
     font-family: "Bebas Neue", sans-serif;
     text-align: center;
     font-style: oblique;
     font-weight: bold;
     color: orangered;
-    margin-top: 7px;
+    margin-top: 10px;
 
   }
 
   .itens-quad img{
     width: 70%;
+  }
+
+  .clica-ae-texto{
+    text-decoration: none;
+    border: 2px solid orange;
+    border-radius: 5px;
+    background: rgb(12, 12, 12);
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15px,
+    "SHLN" 50px;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    padding: 8px;
+    margin-top: 15px;
   }

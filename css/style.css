@@ -126,7 +126,7 @@ body {
   .container-carrossel{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     margin-top: 10px;
   }
 
@@ -135,6 +135,10 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    box-shadow: 4px 4px 12px rgb(167, 167, 167);
+    margin-left: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
   }
   .carousel img {
   width: 50%;
@@ -149,10 +153,10 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 2px solid black;
+    box-shadow: 4px 4px 12px rgb(167, 167, 167);
     font-family: "Marcador Permanente", cursivo ;
     border-radius: 10px;
-    height: 310px;
+    height: 340px;
     width: 300px;
     margin-top: 30px;
     background-image: url(../img/cartao2.jpg);
@@ -163,7 +167,7 @@ body {
     text-align: center;
     font-size: 34.5px;
     width: 180px;
-    margin-top: 20px;
+    margin-top: 60px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     color: rgb(250, 250, 250);
@@ -186,7 +190,7 @@ body {
     text-align: center;
     font-size: 20px;
     padding: 8px;
-    margin-top: 30px;
+    margin-top: 12px;
   }
 
   /* detalhes */
@@ -231,8 +235,8 @@ body {
     width: 100%;
     justify-content: center;
     height: 450px;
-    background-position: back center;
     margin-bottom: 80px;
+    flex-wrap: wrap;
   }
 
   .itens-quad{
@@ -240,11 +244,11 @@ body {
     flex-direction: column;
     margin: 20px;
     align-items: center;
-    border: 2px solid black;
     border-radius: 10px;
     height: 450px;
     background-position: left;
-    width: 23%;
+    width: 25%;
+    box-shadow: 4px 4px 12px rgb(165, 163, 163);
   }
 
   .itens-quad p{
@@ -306,6 +310,7 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-style: normal;
     margin-bottom: 40px;
+    width: 200px;
   }
 
   .itens-rodape h1{
@@ -364,5 +369,13 @@ body {
 
     .text-carrossel{
       margin-top: 10px;
+    }
+
+    .acessorios{
+      height: auto;
+    }
+
+    .itens-quad{
+      width: 100%;
     }
   }
