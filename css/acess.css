@@ -1,0 +1,42 @@
+.acessorios{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+  }
+
+.itens-quad{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 450px;
+    background-position: left;
+    width: 23%;
+    width: 250px;
+  }
+
+  .itens-quad p{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+  }
+
+  .itens-quad .preco{
+    font-size:25px;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bold;
+    color: orangered;
+    margin-top: 7px;
+
+  }
+
+  .itens-quad img{
+    width: 70%;
+  }

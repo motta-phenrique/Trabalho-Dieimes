@@ -5,7 +5,7 @@ body {
   }
   
   .navbar {
-    background-color: #333;
+    background-color: black;
     overflow: hidden;
     padding: 15px;
     box-shadow: 1px 1px 1px 1px black ;
@@ -232,7 +232,7 @@ body {
     justify-content: center;
     height: 450px;
     background-position: back center;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
   }
 
   .itens-quad{
@@ -269,21 +269,21 @@ body {
     width: 70%;
   }
 
-  .acessorio-ret{
+  /* .acessorio-ret{
     height: 350px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    margin-bottom: 100px;
+  } */
 
-  .itens-ret{
+  /* .itens-ret{
     width: 1150px;
     height: 300px;
-    border: 2px solid black;
     border-radius: 10px;
     background-image: url(../img/cartao.jpg);
-  }
+  } */
 
 
 
@@ -293,11 +293,38 @@ body {
   /* rodape */
   
   .rodape{
-    background-color: #333;
-    height: 180px;
+    background-color: black;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
+  .itens-rodape{
+    margin-top: 40px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+    margin-bottom: 40px;
+  }
 
+  .itens-rodape h1{
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: orangered;
+    display: flex;
+    flex-direction: column;
+  }
+  .itens-rodape p{
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .icon{
+    font-size: 25px;
+    margin-right:20px;
+  }
   @media (max-width: 1080px) {
     .navbar .logo,
     .nav-list {
